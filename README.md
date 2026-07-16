@@ -10,10 +10,10 @@ An interactive, high-utility command-line application designed to help universit
 
 ## 🚀 Key Features
 
-*   **📊 Precision Target Analysis:** Calculates the exact average GPA required over your remaining credit hours to hit your target.
-*   **⚠️ Mathematical Feasibility Guard:** Instantly detects if a target is mathematically impossible and automatically calculates your **highest possible final CGPA** assuming perfect grades.
-*   **💡 Dynamic, Tiered Recommendations:** Offers smart, actionable advice tailored to your required GPA trajectory (ranging from "Comfortably Achievable" to "Highly Ambitious").
-*   **🧹 Polished CLI UX:** Features structured visual tables, clean dividers, and automatic screen clearing for a seamless user experience.
+* **📊 Precision Target Analysis:** Calculates the exact average GPA required over your remaining credit hours to hit your target.
+* **⚠️ Mathematical Feasibility Guard:** Instantly detects if a target is mathematically impossible and automatically calculates your **highest possible final CGPA** assuming perfect grades.
+* **💡 Dynamic, Tiered Recommendations:** Offers smart, actionable advice tailored to your required GPA trajectory (ranging from "Comfortably Achievable" to "Highly Ambitious").
+* **🧹 Polished CLI UX:** Features structured visual tables, clean dividers, and automatic screen clearing for a seamless user experience.
 
 ---
 
@@ -33,9 +33,9 @@ $$\text{Max Possible CGPA} = \frac{(4.00 \times \text{Remaining Credits}) + (\te
 
 ## 🛠️ Technical Details (C++ Implementation)
 
-*   **Header Set:** Uses `<iomanip>` to enforce strict double-precision styling, formatting the analysis output perfectly to `2` decimal places.
-*   **Layout Formatting:** Employs `std::left` and `std::setw` manipulators for perfectly aligned, table-like terminal outputs regardless of variable string lengths.
-*   **Data Validation:** Features conditional branching to gracefully handle completed degrees, unrealistic goals, and already surpassed targets.
+* **Header Set:** Uses `<iomanip>` to enforce strict double-precision styling, formatting the analysis output perfectly to `2` decimal places.
+* **Layout Formatting:** Employs `std::left` and `std::setw` manipulators for perfectly aligned, table-like terminal outputs regardless of variable string lengths.
+* **Data Validation:** Features conditional branching to gracefully handle completed degrees, unrealistic goals, and already surpassed targets.
 
 ---
 
