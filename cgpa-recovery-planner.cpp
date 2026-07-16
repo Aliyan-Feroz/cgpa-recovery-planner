@@ -154,6 +154,10 @@ int main(){
     
 	}
 	
+    cout << "\nPress Enter to exit...";
+    cin.ignore(); // Clears any leftover input buffer
+    cin.get();    // Waits for the user to press Enter
+    
   return 0;
 
 }
